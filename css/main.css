@@ -663,7 +663,10 @@ button {
     -webkit-column-gap: 2rem;
             column-gap: 2rem;
     row-gap: 2rem;
-        grid-template-areas: "header-articles header-articles" "a1 a2" "a1 a3" "more-articles a4";
+        grid-template-areas: "header-articles header-articles"
+ "a1 a2"
+ "a1 a3"
+ "more-articles a4";
   }
   #articles .a1,
   #articles .a2,
@@ -856,4 +859,3 @@ button {
     font-weight: 600;
   }
 }
-/*# sourceMappingURL=main.css.map */
